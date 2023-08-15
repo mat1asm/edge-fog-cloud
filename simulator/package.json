@@ -1,0 +1,17 @@
+{
+  "name": "simulator",
+  "version": "1.0.0",
+  "description": "simulates a data stream over serial port",
+  "main": "obd2-producer.js",
+  "scripts": {
+    "start": "node main"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@serialport/binding-mock": "^10.2.2",
+    "serialport": "^11.0.1",
+    "winston": "^3.10.0"
+  }
+}
